@@ -60,7 +60,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 .logo {
@@ -71,11 +71,11 @@ body {
 }
 
 .logo-image {
-    height: 90px;
+    height: 270px;
     width: auto;
     object-fit: contain;
     transition: transform 0.3s ease;
-    max-width: 300px;
+    max-width: 500px;
 }
 
 .logo-image:hover {
@@ -173,12 +173,12 @@ body {
 }
 
 .hero-logo {
-    height: 160px;
+    height: 300px;
     width: auto;
     object-fit: contain;
     margin-bottom: 30px;
     animation: fadeInDown 0.8s ease-out;
-    max-width: 350px;
+    max-width: 500px;
 }
 
 .hero-title {
@@ -480,12 +480,12 @@ body {
 }
 
 .footer-logo {
-    height: 50px;
+    height: 120px;
     width: auto;
     object-fit: contain;
     margin-bottom: 15px;
     opacity: 0.9;
-    max-width: 150px;
+    max-width: 250px;
 }
 
 .footer-section p {
