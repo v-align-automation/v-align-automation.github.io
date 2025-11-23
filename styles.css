@@ -75,6 +75,7 @@ body {
     width: auto;
     object-fit: contain;
     transition: transform 0.3s ease;
+    max-width: 200px;
 }
 
 .logo-image:hover {
@@ -177,6 +178,7 @@ body {
     object-fit: contain;
     margin-bottom: 30px;
     animation: fadeInDown 0.8s ease-out;
+    max-width: 300px;
 }
 
 .hero-title {
@@ -483,6 +485,7 @@ body {
     object-fit: contain;
     margin-bottom: 15px;
     opacity: 0.9;
+    max-width: 150px;
 }
 
 .footer-section p {
