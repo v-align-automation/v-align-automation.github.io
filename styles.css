@@ -71,11 +71,11 @@ body {
 }
 
 .logo-image {
-    height: 70px;
+    height: 90px;
     width: auto;
     object-fit: contain;
     transition: transform 0.3s ease;
-    max-width: 250px;
+    max-width: 300px;
 }
 
 .logo-image:hover {
@@ -779,7 +779,7 @@ body {
 
 .products-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 40px;
 }
 
