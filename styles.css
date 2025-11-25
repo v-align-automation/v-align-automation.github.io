@@ -60,7 +60,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 8px 0;
 }
 
 .logo {
@@ -71,11 +71,11 @@ body {
 }
 
 .logo-image {
-    height: 270px;
+    height: 60px;
     width: auto;
     object-fit: contain;
     transition: transform 0.3s ease;
-    max-width: 500px;
+    max-width: 250px;
 }
 
 .logo-image:hover {
@@ -151,9 +151,12 @@ body {
 /* Hero Section */
 .hero {
     position: relative;
-    padding: 120px 0;
-    background: linear-gradient(135deg, #f5f7ff 0%, #ffffff 100%);
+    padding: 100px 0;
+    background: linear-gradient(135deg, rgba(0, 82, 204, 0.7) 0%, rgba(0, 61, 153, 0.7) 100%),
+                url('packaging-line.jpg') center/cover no-repeat;
+    background-attachment: fixed;
     overflow: hidden;
+    min-height: 600px;
 }
 
 .hero-background {
@@ -162,7 +165,7 @@ body {
     right: -10%;
     width: 600px;
     height: 600px;
-    background: radial-gradient(circle, rgba(0, 82, 204, 0.1) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
     border-radius: 50%;
 }
 
@@ -185,19 +188,21 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 56px;
     font-weight: 800;
-    color: var(--text-dark);
+    color: #ffffff;
     margin-bottom: 20px;
     line-height: 1.2;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .hero-subtitle {
     font-size: 20px;
-    color: var(--text-light);
+    color: #ffffff;
     margin-bottom: 40px;
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.4;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
 }
 
 .hero-buttons {
