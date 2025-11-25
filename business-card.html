@@ -29,15 +29,16 @@
             width: 100%;
             max-width: 500px;
             aspect-ratio: 85 / 55;
-            background: linear-gradient(135deg, #0052CC 0%, #003D99 100%);
+            background: white;
             border-radius: 12px;
             padding: 40px;
-            box-shadow: 0 20px 60px rgba(0, 82, 204, 0.4);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             position: relative;
             overflow: hidden;
+            border: 1px solid #e0e0e0;
         }
 
         /* Background accent */
@@ -48,7 +49,7 @@
             right: -10%;
             width: 300px;
             height: 300px;
-            background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(0, 82, 204, 0.05) 0%, transparent 70%);
             border-radius: 50%;
         }
 
@@ -59,7 +60,7 @@
             left: -5%;
             width: 200px;
             height: 200px;
-            background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(0, 82, 204, 0.05) 0%, transparent 70%);
             border-radius: 50%;
         }
 
@@ -99,7 +100,7 @@
         }
 
         .card-name {
-            color: white;
+            color: #1a1a1a;
             font-size: 32px;
             font-weight: 700;
             letter-spacing: -0.5px;
@@ -113,16 +114,16 @@
         }
 
         .company-name {
-            color: white;
+            color: #0052CC;
             font-size: 14px;
             font-weight: 600;
             letter-spacing: 1px;
             text-transform: uppercase;
-            opacity: 0.9;
+            opacity: 1;
         }
 
         .tagline {
-            color: rgba(255, 255, 255, 0.85);
+            color: #666;
             font-size: 12px;
             letter-spacing: 0.5px;
         }
@@ -130,7 +131,7 @@
         .divider {
             width: 40px;
             height: 2px;
-            background: rgba(255, 255, 255, 0.3);
+            background: #0052CC;
             margin: 10px 0;
         }
 
@@ -138,12 +139,12 @@
             display: flex;
             flex-direction: column;
             gap: 8px;
-            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            border-top: 1px solid #e0e0e0;
             padding-top: 20px;
         }
 
         .contact-item {
-            color: rgba(255, 255, 255, 0.9);
+            color: #1a1a1a;
             font-size: 11px;
             display: flex;
             align-items: center;
@@ -153,12 +154,13 @@
         .contact-icon {
             width: 16px;
             height: 16px;
-            background: rgba(255, 255, 255, 0.3);
+            background: #0052CC;
             border-radius: 3px;
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 9px;
+            color: white;
         }
 
         .contact-text {
@@ -278,11 +280,11 @@
                 <div class="card-footer">
                     <div class="contact-item">
                         <div class="contact-icon">✉</div>
-                        <div class="contact-text">hello@v-align.io</div>
+                        <div class="contact-text">info@v-alignautomation.com</div>
                     </div>
                     <div class="contact-item">
                         <div class="contact-icon">☎</div>
-                        <div class="contact-text">+91 XXXX-XXXX-XX</div>
+                        <div class="contact-text">+91 6360-558-726</div>
                     </div>
                     <div class="contact-item">
                         <div class="contact-icon">🌐</div>
